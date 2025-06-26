@@ -1,0 +1,116 @@
+/* Fondo y centrado total del contenido */
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Carta de blog */
+.card {
+    width: 18rem;
+ 
+     border: 1px solid rgba(0, 0, 0, 0.8); /* borde negro pero más sutil */
+    box-shadow: 10px 10px 0px #000; /* sombra dura estilo retro */
+    background-color: #fff;
+    padding: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1rem;
+    transform: scale(0.85);
+    transform-origin: center;
+    border: 1px solid #000;
+
+}
+
+/* Imagen de la carta */
+.card-image {
+    width: 100%;
+    display: block;
+    border-radius: 1rem;
+    padding: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+/* Contenido general */
+.content {
+    padding: 0.2rem;
+}
+
+/* Categoría */
+.category {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Fecha */
+.publish-date {
+    color: #666;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+/* Título */
+.card-title {
+    display: block;
+    color: black;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 1.3rem;
+    
+}
+
+.card-title:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+/* Descripción */
+.card-description {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Autor */
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.author-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Responsive para pantallas pequeñas */
+@media screen and (max-width: 23.4375rem) {
+
+    /* 375px */
+    .card {
+        width: 85%;
+        padding: 1rem;
+    }
+}
+
+/* Responsive para pantallas grandes */
+@media screen and (min-width: 90rem) {
+
+    /* 1440px */
+    .card {
+        width: 18rem;
+        padding: 1.25rem;
+    }
+}
