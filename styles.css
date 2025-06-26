@@ -12,8 +12,7 @@ body {
 /* Carta de blog */
 .card {
     width: 18rem;
- 
-     border: 1px solid rgba(0, 0, 0, 0.8); /* borde negro pero más sutil */
+    border: 1px solid rgba(0, 0, 0, 0.8); /* borde negro pero más sutil */
     box-shadow: 10px 10px 0px #000; /* sombra dura estilo retro */
     background-color: #fff;
     padding: 1rem;
