@@ -1,6 +1,6 @@
 # 📰 Blog Preview Card | Frontend Mentor Challenge
 
-![Preview](./assets/preview.jpg)
+![Preview](/assets/preview.jpg)
 
 ## 📌 Descripción | Description
 
